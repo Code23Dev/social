@@ -1,0 +1,63 @@
+@import 'navbar';
+@import 'sell';
+@import 'escrow_service';
+@import 'recently-sold';
+@import 'register';
+@import 'login';
+@import 'all';
+@import 'home';
+@import 'browse';
+@import 'kecidsehife';
+*{
+  margin: 0;
+}
+.nav_end{
+text-align: end;
+}
+
+.copyright a {
+  color: gray;
+  font-size: 12px;
+  &:hover{
+    color: gray;
+    font-size: 12px;
+  }
+}
+.text-primary {
+  color: #337ab7;
+  font-size: 16px;
+}
+.button_right{
+  color: gray;
+  font-size: 14px;
+  &:hover{
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+  }
+}
+.footer_end_line a{
+  color: gray;
+  font-size: 14px;
+  &:hover{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+.top_right_h1{
+  color: #337ab7;
+  font-size: 36px;
+  margin-top: 20px;
+}
+.top_right_p{
+  font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+}

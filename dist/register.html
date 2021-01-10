@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>register</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #273647;margin: 0;">
+    <a class="navbar-brand nav_none_2" href="home_main.html"><img src="./img/LogoMakr-7x4FjC (3).png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-align-left" style="color: cadetblue;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="container hover_tap">
+        <a class="navbar-brand nav_none" href="home_main.html"><img src="./img/LogoMakr-7x4FjC (3).png" alt=""></a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link a_link topBotomBordersOut" href="browse.html">Hesablar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a_link topBotomBordersOut" href="login.html">Giriş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a_link topBotomBordersOut" href="register.html">Qeydiyyatdan keçin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a_link topBotomBordersOut" href="sell.html">Satış</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+<div class="container">
+   <h2 class="text-center">Qeydiyyatdan keçin və ya <a href="login.html">Giriş</a></h2>
+</div><br>
+<div class="container">
+<div class="register_center">
+  <div class="col-xs-12 col-sm-7 col-sm-offset-3">
+  <form class="form-horizontal">
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-user input_icon"></i></span>
+      </div>
+      <input type="text" class="form-control fix-rounded-right" placeholder="İstifadəçi adı" required >
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-envelope-o input_icon"></i></span>
+      </div>
+      <input type="text" class="form-control fix-rounded-right" placeholder="Elektron poçt" required >
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-lock input_icon"></i></span>
+      </div>
+      <input type="text" class="form-control fix-rounded-right" placeholder="Şifrə" required >
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-lock input_icon"></i></span>
+      </div>
+      <input type="text" class="form-control fix-rounded-right" placeholder="Şifrəni təsdiq edin" required >
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-phone input_icon"></i></span>
+      </div>
+      <input type="text" class="form-control fix-rounded-right"placeholder="Telefon" required >
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-home input_icon"></i></span>
+      </div>
+      <textarea class="form-control" name="address" placeholder="Ünvan"></textarea>
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <div class="input-group-prepend">
+        <span class="input-group-text icon_background"><i class="fa fa-ravelry input_icon"></i></span>
+      </div>
+      <select autocomplete="off" class="form-control" name="country">
+        <option value="USA">United States</option>
+        <option value="CAN">Canada</option>
+        <option value="AFG">Afghanistan</option>
+        <option value="ALB">Albania</option>
+        <option value="DZA">Algeria</option>
+        <option value="ASM">American Samoa</option>
+        <option value="AND">Andorra</option>
+        <option value="AGO">Angola</option>
+        <option value="AIA">Anguilla</option>
+        <option value="ATA">Antarctica</option>
+        <option value="ATG">Antigua and/or Barbuda</option>
+        <option value="ARG">Argentina</option>
+        <option value="ARM">Armenia</option>
+        <option value="ABW">Aruba</option>
+        <option value="AUS">Australia</option>
+        <option value="AUT">Austria</option>
+        <option value="AZE">Azerbaijan</option>
+        <option value="BHS">Bahamas</option>
+        <option value="BHR">Bahrain</option>
+        <option value="BGD">Bangladesh</option>
+        <option value="BRB">Barbados</option>
+        <option value="BLR">Belarus</option>
+        <option value="BEL">Belgium</option>
+        <option value="BLZ">Belize</option>
+        <option value="BEN">Benin</option>
+        <option value="BMU">Bermuda</option>
+        <option value="BTN">Bhutan</option>
+        <option value="BOL">Bolivia</option>
+        <option value="BIH">Bosnia and Herzegovina</option>
+        <option value="BWA">Botswana</option>
+        <option value="BVT">Bouvet Island</option>
+        <option value="BRA">Brazil</option>
+        <option value="IOT">British lndian Ocean Territory</option>
+        <option value="BRN">Brunei Darussalam</option>
+        <option value="BGR">Bulgaria</option>
+        <option value="BFA">Burkina Faso</option>
+        <option value="BDI">Burundi</option>
+        <option value="KHM">Cambodia</option>
+        <option value="CMR">Cameroon</option>
+        <option value="CPV">Cape Verde</option>
+        <option value="CYM">Cayman Islands</option>
+        <option value="CAF">Central African Republic</option>
+        <option value="TCD">Chad</option>
+        <option value="CHL">Chile</option>
+        <option value="CHN">China</option>
+        <option value="CXR">Christmas Island</option>
+        <option value="CCK">Cocos (Keeling) Islands</option>
+        <option value="COL">Colombia</option>
+        <option value="COM">Comoros</option>
+        <option value="COG">Congo</option>
+        <option value="COK">Cook Islands</option>
+        <option value="CRI">Costa Rica</option>
+        <option value="HRV">Croatia (Hrvatska)</option>
+        <option value="CUB">Cuba</option>
+        <option value="CYP">Cyprus</option>
+        <option value="CZE">Czech Republic</option>
+        <option value="COD">Democratic Republic of Congo</option>
+        <option value="DNK">Denmark</option>
+        <option value="DJI">Djibouti</option>
+        <option value="DMA">Dominica</option>
+        <option value="DOM">Dominican Republic</option>
+        <option value="ECU">Ecudaor</option>
+        <option value="EGY">Egypt</option>
+        <option value="SLV">El Salvador</option>
+        <option value="GNQ">Equatorial Guinea</option>
+        <option value="ERI">Eritrea</option>
+        <option value="EST">Estonia</option>
+        <option value="ETH">Ethiopia</option>
+        <option value="FLK">Falkland Islands (Malvinas)</option>
+        <option value="FRO">Faroe Islands</option>
+        <option value="FJI">Fiji</option>
+        <option value="FIN">Finland</option>
+        <option value="FRA">France</option>
+        <option value="FX">France, Metropolitan</option>
+        <option value="GUF">French Guiana</option>
+        <option value="PYF">French Polynesia</option>
+        <option value="ATF">French Southern Territories</option>
+        <option value="GAB">Gabon</option>
+        <option value="GMB">Gambia</option>
+        <option value="GEO">Georgia</option>
+        <option value="DEU">Germany</option>
+        <option value="GHA">Ghana</option>
+        <option value="GIB">Gibraltar</option>
+        <option value="GRC">Greece</option>
+        <option value="GRL">Greenland</option>
+        <option value="GRD">Grenada</option>
+        <option value="GLP">Guadeloupe</option>
+        <option value="GUM">Guam</option>
+        <option value="GTM">Guatemala</option>
+        <option value="GIN">Guinea</option>
+        <option value="GNB">Guinea-Bissau</option>
+        <option value="GUY">Guyana</option>
+        <option value="HTI">Haiti</option>
+        <option value="HMD">Heard and Mc Donald Islands</option>
+        <option value="HND">Honduras</option>
+        <option value="HKG">Hong Kong</option>
+        <option value="HUN">Hungary</option>
+        <option value="ISL">Iceland</option>
+        <option value="IND">India</option>
+        <option value="IDN">Indonesia</option>
+        <option value="IRN">Iran (Islamic Republic of)</option>
+        <option value="IRQ">Iraq</option>
+        <option value="IRL">Ireland</option>
+        <option value="ISR">Israel</option>
+        <option value="ITA">Italy</option>
+        <option value="JAM">Jamaica</option>
+        <option value="JPN">Japan</option>
+        <option value="JOR">Jordan</option>
+        <option value="KAZ">Kazakhstan</option>
+        <option value="KEN">Kenya</option>
+        <option value="KIR">Kiribati</option>
+        <option value="PRK">Korea, Democratic People's Republic of</option>
+        <option value="KOR">Korea, Republic of</option>
+        <option value="KWT">Kuwait</option>
+        <option value="KGZ">Kyrgyzstan</option>
+        <option value="LAO">Lao People's Democratic Republic</option>
+        <option value="LVA">Latvia</option>
+        <option value="LBN">Lebanon</option>
+        <option value="LSO">Lesotho</option>
+        <option value="LBR">Liberia</option>
+        <option value="LBY">Libyan Arab Jamahiriya</option>
+        <option value="LIE">Liechtenstein</option>
+        <option value="LTU">Lithuania</option>
+        <option value="LUX">Luxembourg</option>
+        <option value="MAC">Macau</option>
+        <option value="MKD">Macedonia</option>
+        <option value="MDG">Madagascar</option>
+        <option value="MWI">Malawi</option>
+        <option value="MYS">Malaysia</option>
+        <option value="MDV">Maldives</option>
+        <option value="MLI">Mali</option>
+        <option value="MLT">Malta</option>
+        <option value="MHL">Marshall Islands</option>
+        <option value="MTQ">Martinique</option>
+        <option value="MRT">Mauritania</option>
+        <option value="MUS">Mauritius</option>
+        <option value="MYT">Mayotte</option>
+        <option value="MEX">Mexico</option>
+        <option value="FSM">Micronesia, Federated States of</option>
+        <option value="MDA">Moldova, Republic of</option>
+        <option value="MCO">Monaco</option>
+        <option value="MNG">Mongolia</option>
+        <option value="MSR">Montserrat</option>
+        <option value="MAR">Morocco</option>
+        <option value="MOZ">Mozambique</option>
+        <option value="MMR">Myanmar</option>
+        <option value="NAM">Namibia</option>
+        <option value="NRU">Nauru</option>
+        <option value="NPL">Nepal</option>
+        <option value="NLD">Netherlands</option>
+        <option value="NCL">New Caledonia</option>
+        <option value="NZL">New Zealand</option>
+        <option value="NIC">Nicaragua</option>
+        <option value="NER">Niger</option>
+        <option value="NGA">Nigeria</option>
+        <option value="NIU">Niue</option>
+        <option value="NFK">Norfork Island</option>
+        <option value="MNP">Northern Mariana Islands</option>
+        <option value="NOR">Norway</option>
+        <option value="OMN">Oman</option>
+        <option value="PAK">Pakistan</option>
+        <option value="PLW">Palau</option>
+        <option value="PAN">Panama</option>
+        <option value="PNG">Papua New Guinea</option>
+        <option value="PRY">Paraguay</option>
+        <option value="PER">Peru</option>
+        <option value="PHL">Philippines</option>
+        <option value="PCN">Pitcairn</option>
+        <option value="POL">Poland</option>
+        <option value="PRT">Portugal</option>
+        <option value="PRI">Puerto Rico</option>
+        <option value="QAT">Qatar</option>
+        <option value="SSD">South Sudan</option>
+        <option value="REU">Reunion</option>
+        <option value="ROU">Romania</option>
+        <option value="RUS">Russian Federation</option>
+        <option value="RWA">Rwanda</option>
+        <option value="KNA">Saint Kitts and Nevis</option>
+        <option value="LCA">Saint Lucia</option>
+        <option value="VCT">Saint Vincent and the Grenadines</option>
+        <option value="WSM">Samoa</option>
+        <option value="SMR">San Marino</option>
+        <option value="STP">Sao Tome and Principe</option>
+        <option value="SAU">Saudi Arabia</option>
+        <option value="SEN">Senegal</option>
+        <option value="SRB">Serbia</option>
+        <option value="SYC">Seychelles</option>
+        <option value="SLE">Sierra Leone</option>
+        <option value="SGP">Singapore</option>
+        <option value="SVK">Slovakia</option>
+        <option value="SVN">Slovenia</option>
+        <option value="SLB">Solomon Islands</option>
+        <option value="SOM">Somalia</option>
+        <option value="ZAF">South Africa</option>
+        <option value="SGS">South Georgia South Sandwich Islands</option>
+        <option value="ESP">Spain</option>
+        <option value="LKA">Sri Lanka</option>
+        <option value="SHN">St. Helena</option>
+        <option value="SDN">Sudan</option>
+        <option value="SUR">Suriname</option>
+        <option value="SJM">Svalbarn and Jan Mayen Islands</option>
+        <option value="SWZ">Swaziland</option>
+        <option value="SWE">Sweden</option>
+        <option value="CHE">Switzerland</option>
+        <option value="SYR">Syrian Arab Republic</option>
+        <option value="TWN">Taiwan</option>
+        <option value="TJK">Tajikistan</option>
+        <option value="TZA">Tanzania, United Republic of</option>
+        <option value="THA">Thailand</option>
+        <option value="TGO">Togo</option>
+        <option value="TKL">Tokelau</option>
+        <option value="TON">Tonga</option>
+        <option value="TTO">Trinidad and Tobago</option>
+        <option value="TUN">Tunisia</option>
+        <option value="TUR">Turkey</option>
+        <option value="TKM">Turkmenistan</option>
+        <option value="TCA">Turks and Caicos Islands</option>
+        <option value="TUV">Tuvalu</option>
+        <option value="UGA">Uganda</option>
+        <option value="UKR">Ukraine</option>
+        <option value="ARE">United Arab Emirates</option>
+        <option value="GBR">United Kingdom</option>
+        <option value="UMI">United States minor outlying islands</option>
+        <option value="URY">Uruguay</option>
+        <option value="UZB">Uzbekistan</option>
+        <option value="VUT">Vanuatu</option>
+        <option value="VAT">Vatican City State</option>
+        <option value="VEN">Venezuela</option>
+        <option value="VNM">Vietnam</option>
+        <option value="VGB">Virgin Islands (British)</option>
+        <option value="VIR">Virgin Islands (U.S.)</option>
+        <option value="WLF">Wallis and Futuna Islands</option>
+        <option value="ESH">Western Sahara</option>
+        <option value="YEM">Yemen</option>
+        <option value="ZMB">Zambia</option>
+        <option value="ZWE">Zimbabwe</option>
+</select>
+    </div>
+    <br>
+    <div class="input-group input-group-sm">
+      <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+      <div class="g-recaptcha" data-sitekey="6Lc20RcUAAAAAKRflpDaqw1aNMngp6YQrm-osxKO"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lc20RcUAAAAAKRflpDaqw1aNMngp6YQrm-osxKO&amp;co=aHR0cHM6Ly9mYW1lc3dhcC5jb206NDQz&amp;hl=en&amp;v=48TunWH-ZrLteSwFVbw6tVnx&amp;size=normal&amp;cb=itlfvguneco9" width="304" height="78" role="presentation" name="a-y1kaaqo3ckk0" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+    </div>
+    <br>
+    <div  class="input-group input-group-sm">
+      <button type="submit" class="btn btn-primary">Qeydiyyatdan keçin</button>
+    </div>
+  </form>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<br><br><br>
+ <!-- Footer -->
+ <footer class="page-footer font-small mdb-color pt-4" style=" background-color: #273647;margin-top: 40px;">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left mt-3 pb-3">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+         <a href="home_main.html"><img src="img/LogoMakr-0loKbW (2).png" style="margin-top:30px;" width="200px"></a>
+      </div>
+      
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold footer_h6_top">Sosial Mediya</h6>
+        <p>
+          <a href="Instagram.html" class="footer_h6_top_a">Instagram Hesabları Alın</a>
+        </p>
+        <p>
+          <a href="Youtube.html" class="footer_h6_top_a">Youtube kanallarını alın</a>
+        </p>
+        <p>
+          <a href="Tiktok.html" class="footer_h6_top_a">Tiktok Hesabları Alın</a>
+        </p>
+      </div>
+      
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold footer_h6_top">Bizim xidmətlə</h6>
+        <p>
+          <a href="escrow_service.html" class="footer_h6_top_a">Emanet xidməti</a>
+        </p>
+        <p>
+          <a href="recently_sold.html" class="footer_h6_top_a">Bu yaxınlarda satıldı</a>
+        </p>
+        <p>
+          <a href="" class=" footer_h6_top_a">Tərəfdaşlıq Proqramı</a>
+        </p>
+      </div>
+      
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold footer_h6_top">Bizimlə əlaqə saxlayın</h6>
+        <p>
+          <a href="contactus.html" class="footer_h6_top_a">Bizimlə əlaqə saxlayın</a>
+        </p>
+        <p>
+          <a href="Terms of Service.html" class="footer_h6_top_a">Xidmət Şərtləri</a>
+        </p>
+        <p>
+          <a href="Privacy Policy.html" class=" footer_h6_top_a">Gizlilik Siyasəti</a>
+        </p>
+      </div>
+    </div>
+    <hr class="footer_hr_style">
+    <div class="row d-flex align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-center text-md-left footera_main">© Copyright 2020</p>
+
+      </div>
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+        <div class="text-center text-md-right">
+          <a href="Terms of Service.html" class="footera_main">Şərtlər  &bull;</a>
+          <a href="Privacy Policy.html" class="footera_main">Məxfilik</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.register_center{
+  display: flex;
+  justify-content: center;
+}
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.input-group-addon:first-child {
+  border-right: 0;
+}
+.input_icon{
+  color: #337ab7;
+  font-size: 20px !important;
+}
+.color_log{
+  color: #337ab7;
+}
